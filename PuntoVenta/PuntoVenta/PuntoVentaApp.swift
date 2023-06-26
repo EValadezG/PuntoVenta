@@ -11,7 +11,7 @@ import SwiftUI
 struct PuntoVentaApp: App {
     var body: some Scene {
         WindowGroup {
-            Welcome()
+            TabViewM()
         }
     }
 }

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ListProducts: View {
-    var drinks: [Product]
+    @State var drinks: [Product] = drinksArray
     var body: some View {
         NavigationView {
             
@@ -18,6 +18,8 @@ struct ListProducts: View {
                 }
                     
             }
+        }.onAppear(){
+            drinks = drinksArray
         }
     }
 }

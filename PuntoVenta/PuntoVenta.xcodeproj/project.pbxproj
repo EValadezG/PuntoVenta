@@ -19,6 +19,8 @@
 		26E58C042A45898B00A4446C /* ListProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E58C032A45898B00A4446C /* ListProducts.swift */; };
 		26E58C062A4591BB00A4446C /* ComprarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E58C052A4591BB00A4446C /* ComprarView.swift */; };
 		26E58C0A2A45A25200A4446C /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E58C092A45A25200A4446C /* Welcome.swift */; };
+		A22303B62A4A1C25006C11F1 /* TabViewM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22303B52A4A1C25006C11F1 /* TabViewM.swift */; };
+		A2C379152A4A0E9E00FA47DF /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C379142A4A0E9E00FA47DF /* FormView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		26E58C032A45898B00A4446C /* ListProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListProducts.swift; sourceTree = "<group>"; };
 		26E58C052A4591BB00A4446C /* ComprarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComprarView.swift; sourceTree = "<group>"; };
 		26E58C092A45A25200A4446C /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		A22303B52A4A1C25006C11F1 /* TabViewM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewM.swift; sourceTree = "<group>"; };
+		A2C379142A4A0E9E00FA47DF /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +77,9 @@
 				2603D3AB2A46516C00A4F8FD /* CarritoButton.swift */,
 				26C1AB4C2A457E0700A2725C /* StarRating.swift */,
 				26C1AB4A2A4577E000A2725C /* RowProduct.swift */,
+				A2C379142A4A0E9E00FA47DF /* FormView.swift */,
 				26E58C032A45898B00A4446C /* ListProducts.swift */,
+				A22303B52A4A1C25006C11F1 /* TabViewM.swift */,
 				26E58C092A45A25200A4446C /* Welcome.swift */,
 				26E58C052A4591BB00A4446C /* ComprarView.swift */,
 				2603D3AD2A46535B00A4F8FD /* ListaCarrito.swift */,
@@ -169,8 +175,10 @@
 				26C1AB4D2A457E0700A2725C /* StarRating.swift in Sources */,
 				2603D3AE2A46535B00A4F8FD /* ListaCarrito.swift in Sources */,
 				26E58C042A45898B00A4446C /* ListProducts.swift in Sources */,
+				A22303B62A4A1C25006C11F1 /* TabViewM.swift in Sources */,
 				26E58C062A4591BB00A4446C /* ComprarView.swift in Sources */,
 				2603D3AC2A46516C00A4F8FD /* CarritoButton.swift in Sources */,
+				A2C379152A4A0E9E00FA47DF /* FormView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
