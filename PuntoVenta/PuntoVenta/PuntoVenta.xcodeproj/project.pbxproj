@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2603D3AC2A46516C00A4F8FD /* CarritoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2603D3AB2A46516C00A4F8FD /* CarritoButton.swift */; };
+		2603D3AE2A46535B00A4F8FD /* ListaCarrito.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2603D3AD2A46535B00A4F8FD /* ListaCarrito.swift */; };
+		269F8C622A4A72C9002EAB07 /* RowCarrito.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269F8C612A4A72C9002EAB07 /* RowCarrito.swift */; };
+		269F8C642A4AACFF002EAB07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269F8C632A4AACFF002EAB07 /* LaunchScreen.storyboard */; };
+		269F8C662A4ABF86002EAB07 /* TotalTicket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269F8C652A4ABF86002EAB07 /* TotalTicket.swift */; };
+		26C1AB3B2A456E7600A2725C /* PuntoVentaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C1AB3A2A456E7600A2725C /* PuntoVentaApp.swift */; };
+		26C1AB3D2A456E7600A2725C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C1AB3C2A456E7600A2725C /* ContentView.swift */; };
+		26C1AB3F2A456E7700A2725C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26C1AB3E2A456E7700A2725C /* Assets.xcassets */; };
+		26C1AB422A456E7700A2725C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26C1AB412A456E7700A2725C /* Preview Assets.xcassets */; };
+		26C1AB492A456EC400A2725C /* ModelProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C1AB482A456EC400A2725C /* ModelProduct.swift */; };
+		26C1AB4B2A4577E000A2725C /* RowProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C1AB4A2A4577E000A2725C /* RowProduct.swift */; };
+		26C1AB4D2A457E0700A2725C /* StarRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C1AB4C2A457E0700A2725C /* StarRating.swift */; };
+		26DD42B72A4AC58F006FD427 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD42B62A4AC58F006FD427 /* InfoView.swift */; };
+		26E58C042A45898B00A4446C /* ListProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E58C032A45898B00A4446C /* ListProducts.swift */; };
+		26E58C062A4591BB00A4446C /* ComprarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E58C052A4591BB00A4446C /* ComprarView.swift */; };
+		26E58C0A2A45A25200A4446C /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E58C092A45A25200A4446C /* Welcome.swift */; };
+		A22303B62A4A1C25006C11F1 /* TabViewM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22303B52A4A1C25006C11F1 /* TabViewM.swift */; };
+		A2C379152A4A0E9E00FA47DF /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C379142A4A0E9E00FA47DF /* FormView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2603D3AB2A46516C00A4F8FD /* CarritoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarritoButton.swift; sourceTree = "<group>"; };
+		2603D3AD2A46535B00A4F8FD /* ListaCarrito.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaCarrito.swift; sourceTree = "<group>"; };
+		269F8C612A4A72C9002EAB07 /* RowCarrito.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowCarrito.swift; sourceTree = "<group>"; };
+		269F8C632A4AACFF002EAB07 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		269F8C652A4ABF86002EAB07 /* TotalTicket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalTicket.swift; sourceTree = "<group>"; };
+		26C1AB372A456E7600A2725C /* PuntoVenta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuntoVenta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26C1AB3A2A456E7600A2725C /* PuntoVentaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuntoVentaApp.swift; sourceTree = "<group>"; };
+		26C1AB3C2A456E7600A2725C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		26C1AB3E2A456E7700A2725C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26C1AB412A456E7700A2725C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		26C1AB482A456EC400A2725C /* ModelProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelProduct.swift; sourceTree = "<group>"; };
+		26C1AB4A2A4577E000A2725C /* RowProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowProduct.swift; sourceTree = "<group>"; };
+		26C1AB4C2A457E0700A2725C /* StarRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRating.swift; sourceTree = "<group>"; };
+		26DD42B62A4AC58F006FD427 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		26E58C032A45898B00A4446C /* ListProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListProducts.swift; sourceTree = "<group>"; };
+		26E58C052A4591BB00A4446C /* ComprarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComprarView.swift; sourceTree = "<group>"; };
+		26E58C092A45A25200A4446C /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		A22303B52A4A1C25006C11F1 /* TabViewM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewM.swift; sourceTree = "<group>"; };
+		A2C379142A4A0E9E00FA47DF /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26C1AB342A456E7600A2725C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26C1AB2E2A456E7600A2725C = {
+			isa = PBXGroup;
+			children = (
+				269F8C632A4AACFF002EAB07 /* LaunchScreen.storyboard */,
+				26C1AB392A456E7600A2725C /* PuntoVenta */,
+				26C1AB382A456E7600A2725C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26C1AB382A456E7600A2725C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26C1AB372A456E7600A2725C /* PuntoVenta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26C1AB392A456E7600A2725C /* PuntoVenta */ = {
+			isa = PBXGroup;
+			children = (
+				26C1AB3A2A456E7600A2725C /* PuntoVentaApp.swift */,
+				26C1AB3C2A456E7600A2725C /* ContentView.swift */,
+				26C1AB482A456EC400A2725C /* ModelProduct.swift */,
+				269F8C652A4ABF86002EAB07 /* TotalTicket.swift */,
+				26DD42B62A4AC58F006FD427 /* InfoView.swift */,
+				2603D3AB2A46516C00A4F8FD /* CarritoButton.swift */,
+				26C1AB4C2A457E0700A2725C /* StarRating.swift */,
+				26C1AB4A2A4577E000A2725C /* RowProduct.swift */,
+				A2C379142A4A0E9E00FA47DF /* FormView.swift */,
+				26E58C032A45898B00A4446C /* ListProducts.swift */,
+				269F8C612A4A72C9002EAB07 /* RowCarrito.swift */,
+				A22303B52A4A1C25006C11F1 /* TabViewM.swift */,
+				26E58C092A45A25200A4446C /* Welcome.swift */,
+				26E58C052A4591BB00A4446C /* ComprarView.swift */,
+				2603D3AD2A46535B00A4F8FD /* ListaCarrito.swift */,
+				26C1AB3E2A456E7700A2725C /* Assets.xcassets */,
+				26C1AB402A456E7700A2725C /* Preview Content */,
+			);
+			path = PuntoVenta;
+			sourceTree = "<group>";
+		};
+		26C1AB402A456E7700A2725C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				26C1AB412A456E7700A2725C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26C1AB362A456E7600A2725C /* PuntoVenta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26C1AB452A456E7700A2725C /* Build configuration list for PBXNativeTarget "PuntoVenta" */;
+			buildPhases = (
+				26C1AB332A456E7600A2725C /* Sources */,
+				26C1AB342A456E7600A2725C /* Frameworks */,
+				26C1AB352A456E7600A2725C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PuntoVenta;
+			productName = PuntoVenta;
+			productReference = 26C1AB372A456E7600A2725C /* PuntoVenta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26C1AB2F2A456E7600A2725C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					26C1AB362A456E7600A2725C = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 26C1AB322A456E7600A2725C /* Build configuration list for PBXProject "PuntoVenta" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26C1AB2E2A456E7600A2725C;
+			productRefGroup = 26C1AB382A456E7600A2725C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26C1AB362A456E7600A2725C /* PuntoVenta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26C1AB352A456E7600A2725C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269F8C642A4AACFF002EAB07 /* LaunchScreen.storyboard in Resources */,
+				26C1AB422A456E7700A2725C /* Preview Assets.xcassets in Resources */,
+				26C1AB3F2A456E7700A2725C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26C1AB332A456E7600A2725C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269F8C622A4A72C9002EAB07 /* RowCarrito.swift in Sources */,
+				26C1AB4B2A4577E000A2725C /* RowProduct.swift in Sources */,
+				26C1AB3D2A456E7600A2725C /* ContentView.swift in Sources */,
+				26C1AB492A456EC400A2725C /* ModelProduct.swift in Sources */,
+				26C1AB3B2A456E7600A2725C /* PuntoVentaApp.swift in Sources */,
+				26E58C0A2A45A25200A4446C /* Welcome.swift in Sources */,
+				26C1AB4D2A457E0700A2725C /* StarRating.swift in Sources */,
+				2603D3AE2A46535B00A4F8FD /* ListaCarrito.swift in Sources */,
+				26E58C042A45898B00A4446C /* ListProducts.swift in Sources */,
+				A22303B62A4A1C25006C11F1 /* TabViewM.swift in Sources */,
+				26E58C062A4591BB00A4446C /* ComprarView.swift in Sources */,
+				2603D3AC2A46516C00A4F8FD /* CarritoButton.swift in Sources */,
+				269F8C662A4ABF86002EAB07 /* TotalTicket.swift in Sources */,
+				26DD42B72A4AC58F006FD427 /* InfoView.swift in Sources */,
+				A2C379152A4A0E9E00FA47DF /* FormView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		26C1AB432A456E7700A2725C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26C1AB442A456E7700A2725C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26C1AB462A456E7700A2725C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PuntoVenta/Preview Content\"";
+				DEVELOPMENT_TEAM = DKM8HX28PF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Home.PuntoVenta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26C1AB472A456E7700A2725C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PuntoVenta/Preview Content\"";
+				DEVELOPMENT_TEAM = DKM8HX28PF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Home.PuntoVenta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26C1AB322A456E7600A2725C /* Build configuration list for PBXProject "PuntoVenta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C1AB432A456E7700A2725C /* Debug */,
+				26C1AB442A456E7700A2725C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26C1AB452A456E7700A2725C /* Build configuration list for PBXNativeTarget "PuntoVenta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C1AB462A456E7700A2725C /* Debug */,
+				26C1AB472A456E7700A2725C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26C1AB2F2A456E7600A2725C /* Project object */;
+}
